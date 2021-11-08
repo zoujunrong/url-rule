@@ -1,0 +1,23 @@
+{
+    "appName": {
+        "message": "URL Rule"
+    },
+    "version": {
+        "message": "1.0.0"
+    },
+    "description": {
+        "message": "Solve the problem that http sites are converted to https by default."
+    },
+    "statusTip": {
+        "message": "Current status:"
+    },
+    "inputTip": {
+        "message": "Please fill in the list of domain names using the http protocol, separated by \";\" or \"newline\""
+    },
+    "statusOn": {
+        "message": "Enable"
+    },
+    "statusOff": {
+        "message": "Disable"
+    }
+}

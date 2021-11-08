@@ -1,0 +1,35 @@
+{
+  "name": "__MSG_appName__",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "description": "__MSG_description__",
+  "minimum_chrome_version": "88",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "author": {
+    "name": "Eden",
+    "birth": 2021
+  },
+  "action": {
+    "default_icon": {
+      "19": "icons/19.png",
+      "38": "icons/38.png"
+    },
+    "default_title": "URL Rule",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "permissions": [
+    "storage",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
